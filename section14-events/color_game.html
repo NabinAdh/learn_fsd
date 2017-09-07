@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Color Game</title>
+    <style media="screen">
+      .purple{
+        background: purple;
+      }
+    </style>
+
+  </head>
+  <body>
+    <button type="submit" name="btnChangeColor">CLICK ME</button>
+
+    <script type="text/javascript">
+      var btn = document.querySelector("button");
+      
+      btn.addEventListener("click",function(){
+        document.body.classList.toggle("purple");
+      });
+    </script>
+  </body>
+</html>
