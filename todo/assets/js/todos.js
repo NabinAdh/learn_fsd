@@ -22,6 +22,11 @@ $("input[type='text']").on("keypress",function(event){
     // clear the input
     $(this).val("");
     // Create new li and add it to ul
-    $("ul").append("<li><span>X</span> " + new_todo + "</li>");
+    $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + new_todo + "</li>");
   }
+});
+
+// Hide and show form when clicked on plus sign
+$(".fa-plus").on("click",function(){
+  $("input[type='text']").fadeToggle();
 })
