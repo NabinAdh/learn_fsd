@@ -1,0 +1,36 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.jumbotron{
+  padding:5% 0;
+  background: teal;
+  color:white;
+}
+.tasks input,button{
+  height: 50px;
+  border-radius: 0;
+  margin: 0;
+  display: inline-block;
+}
+.tasks input{
+  width: 60%;
+  padding: 1%;
+  box-sizing: border-box;
+}
+.tasks button{
+  width: 15%;
+  background: teal;
+  border-radius: 0;
+}
+.display{
+  margin: 1% 0;
+  padding: 2%;
+}
+.list-group{
+  width: 75%;
+  margin:0 auto;
+}
+.list-group-item:nth-of-type(odd){
+  background: teal;
+  color: white;
+}
